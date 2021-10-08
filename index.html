@@ -39,19 +39,17 @@
         </nav>
       </header>
       <main>
-        <iframe
-          id="video"
-          title="EXAMPLE VIDEO"
-          src="https://www.youtube.com/watch?v=8Xsn4-EwYc0"
-          allow="fullscreen"
-          loading="lazy"
-        ></iframe>
+        <div class="iframe-container">
+          <iframe id="video" width="450" height="315" src="https://www.youtube.com/embed/9YffrCViTVk" title="Example Youtube Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+        </div>
+        <div>
         <form id="email-form">
           <label for="email-request" id="email-label">Quero receber a newsletter!</label></br>
           <input type="email" id="email-request" 
           name="email-request" placeholder="Insira o endereço de e-mail">
           <input type="submit" value="Submeter">
         </form>
+        </div>
       </main>
   </body>
 </html>

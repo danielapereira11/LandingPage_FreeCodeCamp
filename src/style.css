@@ -13,6 +13,7 @@ header {
   top: 0;
   margin: 0;
   width: 100%;
+  z-index: 1;
 }
 #header-img {
   width: 100px;
@@ -68,11 +69,27 @@ li a:hover {
 li:hover {
   background-color: #438c8e;
 }
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 45%;
+  height: 0;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  width: 70%;
+  height: 80%;
+}
 #email-form {
-  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 5px;
 }
 #email-request {
   width: 300px;
   height: 30px;
-  padding: 10px;
 }
