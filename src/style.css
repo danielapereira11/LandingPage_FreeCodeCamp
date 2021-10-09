@@ -53,32 +53,6 @@ div a.nav-link:hover {
 .nav-link:hover {
   color: #b9e5aa;
 }
-/* ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  display: flex;
-  background-color: transparent;
-}
-li {
-  display: inline;
-  padding: 0 auto;
-  text-align: center;
-  margin: 0 80px 0 0;
-  color: #438c8e;
-}
-li a {
-  text-decoration: none;
-  color: #438c8e;
-  font-size: 20px;
-}
-li a:hover {
-  color: #b9e5aa;
-}
-li:hover {
-  background-color: #438c8e;
-} */
 main {
   width: 80%;
   margin: 240px auto 50px;
