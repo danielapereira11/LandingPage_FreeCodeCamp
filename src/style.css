@@ -26,26 +26,30 @@ header {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  /* position: relative; */
+  position: relative;
   padding: 5px;
 }
 h1 {
-  font-size: 22px;
+  font-size: 20px;
+  text-align: end;
 }
 #nav-bar {
   background-color: #b9e5aa;
   margin: 0;
-  min-height: 80px;
+  min-height: 40px;
   width: 100%;
   overflow: auto;
-  border: 2px solid #438c8e;
+  border-bottom: 2px solid #438c8e;
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 .nav-link {
   text-decoration: none;
   color: #438c8e;
-  font-size: 20px;
+  font-size: 17px;
+  margin: 0;
+  padding: auto;
 }
 div a.nav-link:hover {
   background-color: #438c8e;
@@ -55,7 +59,7 @@ div a.nav-link:hover {
 }
 main {
   width: 80%;
-  margin: 240px auto 50px;
+  margin: 180px auto 50px;
   border: 3px solid black;
 }
 .iframe-container {
@@ -105,6 +109,9 @@ footer p.social-media {
     padding: 3px;
   }
   h1 {
-    font-size: 19px;
+    font-size: 18px;
+  }
+  .nav-link {
+    font-size: 15px;
   }
 }
