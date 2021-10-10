@@ -88,19 +88,19 @@ main {
 }
 footer {
   border: 3px solid black;
+  margin: 0;
+  width: 100%;
 }
-footer p {
-  padding: 0;
+.coded-by {
   font-size: smaller;
   text-align: right;
-  margin: 7px;
+  margin: 10px;
 }
-footer p.social-media {
-  padding: 0;
+.social-media {
   font-size: smaller;
   text-align: left;
   font-weight: bold;
-  margin: 7px;
+  margin: 10px;
 }
 @media (max-width: 575.98px) {
   #header-img {
