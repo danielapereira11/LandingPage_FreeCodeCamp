@@ -75,16 +75,36 @@ main {
   width: 70%;
   height: 80%;
 }
-#form {
-  display: flex;
+h2 {
+  font-size: 20px;
+}
+form {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  padding: 5px;
+  padding: 10px;
+  text-align: center;
+  background-color: #b9e5aa;
+  border-top: 2px solid #438c8e;
+}
+#email-label {
+  font-size: 15px;
+  padding-bottom: 8px;
 }
 #email {
-  width: 300px;
-  height: 30px;
+  width: 400px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #438c8e;
+}
+.submit-btn {
+  height: 35px;
+  width: 120px;
+  color: #b9e5aa;
+  background-color: #438c8e;
+  border-radius: 5px;
+  border: 2px solid #438c8e;
 }
 footer {
   border: 3px solid black;
