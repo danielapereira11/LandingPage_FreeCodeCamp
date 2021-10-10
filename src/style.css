@@ -133,16 +133,30 @@ footer {
   font-weight: bold;
   margin: 10px;
 }
+
 @media (max-width: 575.98px) {
+  .top-header {
+    min-height: 80px;
+  }
   #header-img {
     width: 70px;
     height: 70px;
     padding: 3px;
   }
-  h1 {
-    font-size: 18px;
+  .header-quote {
+    font-size: 15px;
   }
   .nav-link {
     font-size: 15px;
+  }
+  #email-label {
+    font-size: 13px;
+    padding-bottom: 7px;
+  }
+  #email {
+    width: 200px;
+  }
+  .submit-btn {
+    width: 90px;
   }
 }
