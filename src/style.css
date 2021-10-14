@@ -43,12 +43,12 @@ header {
   margin-bottom: 8px;
 }
 #nav-bar {
-  background-color: #b9e5aa;
+  background-color: #b9e5aa5d;
   margin: 0;
   min-height: 40px;
   width: 100%;
   overflow: auto;
-  border-bottom: 2px solid #438c8e;
+  border-bottom: 2px solid #438c8e5e;
   padding: 0;
   margin: 0;
   text-align: center;
@@ -92,8 +92,8 @@ form {
   margin: 0 auto;
   padding: 10px;
   text-align: center;
-  background-color: #b9e5aa;
-  border-top: 2px solid #438c8e;
+  background-color: #b9e5aa5d;
+  border-top: 2px solid #438c8e5e;
 }
 #email-label {
   font-size: 15px;
