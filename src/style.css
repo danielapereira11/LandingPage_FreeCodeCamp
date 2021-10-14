@@ -69,7 +69,6 @@ div a.nav-link:hover {
 main {
   width: 80%;
   margin: 180px auto 20px;
-  border: 3px solid black;
 }
 .iframe-container {
   position: relative;
@@ -98,7 +97,8 @@ form {
 }
 #email-label {
   font-size: 15px;
-  padding-bottom: 8px;
+  padding-bottom: 3px;
+  padding-top: 2px;
   font-weight: bold;
 }
 #email {
@@ -116,6 +116,33 @@ form {
   border-radius: 5px;
   border: 2px solid #438c8e;
 }
+.typed-out {
+  overflow: hidden;
+  width: 0;
+  border-right: 0.15em solid #438c8e;
+  white-space: nowrap;
+  animation: typing 4s steps(40, end) forwards infinite, blink 0.8s infinite;
+}
+.typed-out-container {
+  display: inline-block;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: #438c8e;
+  }
+}
+
 footer {
   margin: 0;
   width: 100%;
