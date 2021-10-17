@@ -60,11 +60,15 @@ header {
   margin: 0;
   padding: auto;
 }
+
 div a.nav-link:hover {
   background-color: #438c8e;
 }
 .nav-link:hover {
   color: #b9e5aa;
+}
+h2 {
+  padding-bottom: 10px;
 }
 main {
   width: 80%;
@@ -83,11 +87,15 @@ main {
   width: 70%;
   height: 80%;
 }
+.sub-heading {
+  background-color: #438c8e5e;
+  padding: 10px 20px;
+  margin-bottom: 5px;
+}
 .accordion-header {
   background-color: #438c8e5e;
   padding: 20px;
 }
-
 .accordion-item {
   padding: 8px;
   border: 0;
