@@ -89,10 +89,9 @@ main {
 }
 .sub-heading {
   background-color: #438c8e5e;
-  padding: 10px 20px;
+  padding: 10px 15px;
   margin-bottom: 5px;
 }
-.accordion-header {
 .gallery-carousel-container {
   padding: 10px 0;
   margin: 0 auto;
@@ -126,15 +125,20 @@ main {
 .gallery-picture-4 {
   background-image: url("../img/chocolate.jpg");
 }
+
+.faq-accordion-header {
   background-color: #438c8e5e;
-  padding: 20px;
+  padding: 10px 15px;
+  margin: 0;
 }
-.accordion-item {
-  padding: 8px;
+.faq-accordion-item {
   border: 0;
+  padding-bottom: 15px;
+  margin-top: 0;
 }
-.accordion-body {
+.faq-accordion-body {
   background-color: #b9e5aa5d;
+  padding: 5px 5px 5px 15px;
 }
 
 form {
