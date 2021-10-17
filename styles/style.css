@@ -111,13 +111,13 @@ main {
   transition: flex 250ms ease;
 }
 .gallery-item:hover {
-  flex: 7;
+  flex: 3;
 }
 .gallery-picture-1 {
-  background-image: url("../img/beterraba22.jpg");
+  background-image: url("../img/bolaberlim22.jpg");
 }
 .gallery-picture-2 {
-  background-image: url("../img/bolaberlim22.jpg");
+  background-image: url("../img/beterraba22.jpg");
 }
 .gallery-picture-3 {
   background-image: url("../img/alfarroba2.jpg");
