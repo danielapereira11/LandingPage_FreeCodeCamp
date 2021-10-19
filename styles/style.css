@@ -67,12 +67,20 @@ div a.nav-link:hover {
 .nav-link:hover {
   color: #b9e5aa;
 }
-h2 {
-  padding-bottom: 10px;
-}
 main {
   width: 80%;
   margin: 180px auto 20px;
+}
+h2 {
+  padding-bottom: 10px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.651);
+  background-color: #438c8eaf;
+}
+.sub-heading {
+  background-color: #438c8e5e;
+  padding: 10px 15px;
+  margin-bottom: 5px;
 }
 .iframe-container {
   position: relative;
@@ -82,16 +90,12 @@ main {
 }
 .iframe-container iframe {
   position: absolute;
-  top: 10%;
+  top: 3%;
   left: 15%;
   width: 70%;
   height: 80%;
 }
-.sub-heading {
-  background-color: #438c8e5e;
-  padding: 10px 15px;
-  margin-bottom: 5px;
-}
+
 .gallery-carousel-container {
   padding: 10px 0;
   margin: 0 auto;
