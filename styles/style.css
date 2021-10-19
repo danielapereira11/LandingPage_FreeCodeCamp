@@ -126,6 +126,16 @@ main {
   background-image: url("../img/chocolate.jpg");
 }
 
+.services-row {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.service-img {
+  height: auto;
+  max-width: 100%;
+}
+
 .faq-accordion-header {
   background-color: #438c8e5e;
   padding: 10px 15px;
@@ -267,5 +277,32 @@ footer {
   }
   .submit-btn {
     width: 90px;
+  }
+  .services-row {
+    font-size: 15px;
+  }
+  small {
+    font-size: 11px;
+  }
+}
+@media (min-width: 575.98px) {
+  .services-row {
+    font-size: 17px;
+  }
+  small {
+    font-size: smaller;
+  }
+}
+@media (min-width: 767.98px) {
+  .service-container {
+    max-width: 90%;
+  }
+  .services-row {
+    font-size: 20px;
+  }
+}
+@media (min-width: 991.98px) {
+  .service-container {
+    max-width: 70%;
   }
 }
