@@ -140,21 +140,67 @@ h2 {
   max-width: 100%;
 }
 
-/* .order-contact-row .col,
-.order-order-row .col {
-  border: 2px solid grey;
-} */
 #order-form {
   padding: 10px auto 0 auto;
+  margin: 20px auto;
   line-height: 35px;
-  /* margin: 0 auto; */
+  background-color: #b9e5aa5d;
+  border: 5px solid #438c8e;
+  border-radius: 15px;
 }
 .order-contact-row,
-.order-order-row {
-  margin: 0 auto;
-  align-items: center;
-  justify-content: center;
+.order-order-row,
+.order-note-row {
+  margin: 5px;
+  padding: 10px;
+}
+.order-note-row {
+  text-align: center;
+  font-size: 14.5px;
+  line-height: 21px;
+}
+/* .order-contact-row,
+.table-col,
+.delivery-row,
+.recieve-row {
+  border-bottom: 2px solid #7eb0b1;
+  border-radius: 15px;
+} */
+.sub-row {
   padding: 0;
+  margin: 0;
+}
+.number-type-personalize {
+  width: 3em;
+  height: 2em;
+  text-align: center;
+  border: 2px solid #7eb0b1;
+  border-radius: 8px;
+  background-color: #7eb0b1;
+}
+table.table {
+  width: 90%;
+  margin: 0 auto;
+}
+.radio {
+  padding-left: 0;
+}
+#datetime-pickup {
+  width: 50%;
+  margin: 0 auto;
+}
+.delivery-row {
+  text-align: center;
+}
+.align-right {
+  text-align: right;
+}
+
+p.when {
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  padding-bottom: 5px;
 }
 #order-email {
   width: 100%;
@@ -162,22 +208,35 @@ h2 {
 #outro-servico,
 #comentario {
   width: 100%;
-  height: 70px;
+  height: 80px;
 }
-.note-row {
+.order-subheading {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
   text-align: center;
-  font-size: 14.5px;
-  line-height: 21px;
+  padding-bottom: 10px;
+}
+.order-sub-subheading {
+  display: block;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px;
+}
+.padding-top-20 {
+  padding-top: 20px;
 }
 #order-submit-btn {
   display: block;
-  margin: 45px auto;
+  margin: 30px auto;
   padding: 12px 100px;
+  font-size: 22px;
   color: #b9e5aa;
   background-color: #438c8e;
-  border-radius: 5px;
   border: 2px solid #438c8e;
-  font-size: 22px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 7px #438c8e75;
 }
 
 .faq-accordion-header {

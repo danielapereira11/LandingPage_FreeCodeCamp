@@ -85,6 +85,7 @@
       <div id="services">
         <h2>Serviços</h2>
       </div>
+      <br />
       <div class="container service-container">
         <div class="row services-row align-items-center justify-content-center">
           <div class="col-3 services-col">
@@ -225,23 +226,20 @@
       </div>
       <br />
       <hr />
-      <br />
       <div id="ordering">
         <h2>Quero Encomendar!</h2>
       </div>
-      <form id="order-form">
-        <div class="row order-contact-row">
-          <div class="row">
-            <div class="col">
-              <span style="font-weight: bold">Identifica-te</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="row">
-              <div class="col"><p>Eu sou o/a...</p></div>
-            </div>
-            <div class="row">
+      <!-- START OF THE FORM -->
+      <div >
+        <form id="order-form">
+          <div class="row order-contact-row">
+            <div class="row sub-row">
               <div class="col">
+                <span class="order-subheading">Identifica-te</span>
+              </div>
+            </div>
+            <div class="row sub-row">
+              <div class="col-6">
                 <label for="first-name" class="form-label">Primeiro Nome:</label
                 ><br />
                 <input
@@ -264,12 +262,7 @@
                 />
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="row">
-              <div class="col"><p>Podem contactar-me através do...</p></div>
-            </div>
-            <div class="row">
+            <div class="row sub-row">
               <div class="col-4">
                 <label for="phone" class="form-label">Telefone:</label><br />
                 <input
@@ -281,8 +274,7 @@
                 />
               </div>
               <div class="col">
-                <label for="order-email" class="form-label">E-mail:</label
-                ><br />
+                <label for="order-email" class="form-label">E-mail:</label><br />
                 <input
                   type="email"
                   class="form-control"
@@ -294,235 +286,271 @@
               </div>
             </div>
           </div>
-        </div>
-        <br />
-        <div class="row order-order-row">
-          <div class="row choice-row">
-            <div class="col-12">
-              <span style="font-weight: bold">O que tanto desejas?</span>
+          <div class="row order-order-row">
+            <div class="row sub-row choice-row padding-top-20">
+              <div class="col-12">
+                <span class="order-subheading"
+                  >Que tipo de creme desejas nas tuas bolas?</span
+                >
+              </div>
+              <div class="col table-col">
+              <table class="table table-hover">
+                <tbody>
+                  <tr>
+                    <td>
+                      <label for="pasteleiro" class="">Pasteleiro</label>
+                    </td>
+                    <td class="align-right">
+                      <input
+                        type="number"
+                        class="number-type-personalize"
+                        id="pasteleiro"
+                        name="tipo-creme"
+                        min="0"
+                        value="0"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="suico" class="">Suiço</label></td>
+                    <td class="align-right">
+                      <input
+                        type="number"
+                        class="number-type-personalize"
+                        id="suico"
+                        name="tipo-creme"
+                        min="0"
+                        value="0"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="maca" class="">Maça</label></td>
+                    <td class="align-right">
+                      <input
+                        type="number"
+                        class="number-type-personalize"
+                        id="maca"
+                        name="tipo-creme"
+                        min="0"
+                        value="0"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="limao" class="">Limão</label></td>
+                    <td class="align-right">
+                      <input
+                        type="number"
+                        class="number-type-personalize"
+                        id="limao"
+                        name="tipo-creme"
+                        min="0"
+                        value="0"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="nutella" class="form-check-label"
+                        >Nutella</label
+                      >
+                    </td>
+                    <td class="align-right">
+                      <input
+                        type="number"
+                        class="number-type-personalize"
+                        id="nutella"
+                        name="tipo-creme"
+                        min="0"
+                        value="0"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="alfarroba" class=""
+                        >Alfarroba com Creme Suiço</label
+                      >
+                    </td>
+                    <td class="align-right">
+                      <input
+                        type="number"
+                        class="number-type-personalize"
+                        id="alfarroba"
+                        name="tipo-creme"
+                        min="0"
+                        value="0"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="beterraba" class="form-check-label"
+                        >Beterraba com Creme Suiço</label
+                      >
+                    </td>
+                    <td class="align-right">
+                      <input
+                        type="number"
+                        class="number-type-personalize"
+                        id="beterraba"
+                        name="tipo-creme"
+                        min="0"
+                        value="0"
+                      />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-            <div class="col">
-              <span>Bolas de Berlim com creme:</span>
-              <div class="form-check">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="pasteleiro"
-                  name="tipo-creme"
-                  value="pasteleiro"
-                />
-
-                <label for="pasteleiro" class="form-check-label"
-                  >Pasteleiro</label
+            
+            <div class="row sub-row delivery-row padding-top-20">
+              <div class="col-12">
+                <span class="order-subheading"
+                  >Como queres receber as tuas bolas?</span
                 >
               </div>
-              <div class="form-check">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="suico"
-                  name="tipo-creme"
-                  value="suico"
-                />
-
-                <label for="suico" class="form-check-label">Suiço</label>
+              <div class="col">
+                <div class="form-check radio">
+                  <input
+                    type="radio"
+                    name="como-receber"
+                    id="loja"
+                    class="forma-check-input"
+                  />
+                  <label for="loja" class="form-check-label"
+                    >Quero levantar em loja</label
+                  >
+                </div>
+                <div class="form-check radio">
+                  <input
+                    type="radio"
+                    name="como-receber"
+                    id="casa"
+                    class="forma-check-input"
+                  />
+                  <label for="casa" class="form-check-label"
+                    >Quero receber em casa</label
+                  >
+                </div>
               </div>
-              <div class="form-check">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="maca"
-                  name="tipo-creme"
-                  value="maca"
-                />
-
-                <label for="maca" class="form-check-label">Maça</label>
+            </div>
+            <div class="row sub-row recieve-row padding-top-20">
+              <div class="row sub-row">
+                <div class="col-12 order-subheading">
+                  <label for="datetime-pickup" class="form-label"
+                    ><span>Quando queres receber as tuas bolas?</span></label
+                  >
+                </div>
               </div>
-              <div class="form-check">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="limao"
-                  name="tipo-creme"
-                  value="limao"
-                />
-
-                <label for="limao" class="form-check-label">Limão</label>
+              <div class="row sub-row">
+                <div class="col-6">
+                  <p class="when">
+                    Caso tenhas optado por levantar em loja, quando virás
+                    levantar?
+                  </p>
+                </div>
+                <div class="col-6">
+                  <p class="when">
+                    Caso pretendas receber em casa, até quando necessitas de
+                    receber a encomenda?
+                  </p>
+                </div>
               </div>
-              <div class="form-check">
+              <div class="row sub-row">
                 <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="nutella"
-                  name="tipo-creme"
-                  value="nutella"
+                  type="datetime-local"
+                  name="datetime-pickup"
+                  id="datetime-pickup"
+                  class="form-control"
+                  min="2021-10-01"
+                  max="2021-12-31"
                 />
-
-                <label for="nutella" class="form-check-label">Nutella</label>
               </div>
-              <div class="form-check">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="alfarroba"
-                  name="tipo-creme"
-                  value="alfarroba"
-                />
-
-                <label for="alfarroba" class="form-check-label"
-                  >Alfarroba com Creme Suiço</label
+            </div>
+            
+            <div class="row sub-row padding-top-20">
+              <span class="order-sub-subheading"
+                >Caso pretendas receber em casa, qual a morada de entrega?</span
+              >
+            </div>
+            <div class="row sub-row">
+              <div class="col-12">
+                <label for="rua" class="form-label"
+                  >Rua/Avenida/Lugar, Nº/Andar</label
                 >
+                <input type="text" id="rua" class="form-control" />
               </div>
-              <div class="form-check">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="beterraba"
-                  name="tipo-creme"
-                  value="beterraba"
-                />
-
-                <label for="beterraba" class="form-check-label"
-                  >Beterraba com Creme Suiço</label
+              <div class="col-3">
+                <label for="codigo-postal" class="form-label"
+                  >Código Postal</label
                 >
+                <input
+                  type="text"
+                  id="codigo-postal"
+                  class="form-control"
+                  placeholder="_ _ _ _ - _ _ _"
+                />
+              </div>
+              <div class="col">
+                <label for="cidade" class="form-label">Freguesia, Cidade</label>
+                <input type="text" id="cidade" class="form-control" />
+              </div>
+            </div>
+            <div class="row sub-row other-service-row padding-top-20">
+              <div class="row sub-row">
+                <label for="outro-servico" class="form-label"
+                  ><span class="order-subheading"
+                    >Quero contratar um serviço!</span
+                  ></label
+                >
+                <textarea
+                  name="outro-servico"
+                  id="outro-servico"
+                  class="form-control"
+                  placeholder="Por favor especifique qual o serviço que pretende contratar..."
+                ></textarea>
+              </div>
+            </div>
+            <div class="row sub-row comment-row padding-top-20">
+              <div class="row sub-row">
+                <label for="comentario" class="form-label"
+                  ><span class="order-sub-subheading"
+                    >Quero acrescentar um comentário sobre a minha
+                    encomenda.</span
+                  ></label
+                >
+                <textarea
+                  name="comenterio"
+                  id="comentario"
+                  class="form-control"
+                ></textarea>
               </div>
             </div>
           </div>
-          <div class="row delivery-row">
-            <div class="col-12">
-              <span style="font-weight: bold"
-                >Como queres receber as tuas bolas?</span
-              >
-            </div>
-            <div class="col">
-              <div class="form-check">
-                <input
-                  type="radio"
-                  name="como-receber"
-                  id="loja"
-                  class="forma-check-input"
-                />
-                <label for="loja" class="form-check-label"
-                  >Quero levantar em loja</label
-                >
-              </div>
-              <div class="form-check">
-                <input
-                  type="radio"
-                  name="como-receber"
-                  id="casa"
-                  class="forma-check-input"
-                />
-                <label for="casa" class="form-check-label"
-                  >Quero receber em casa</label
-                >
-              </div>
-            </div>
-          </div>
-          <div class="row recieve-row">
-            <div class="row">
-              <span style="font-weight: bold"
-                >Quando queres receber as tuas bolas?</span
-              >
-            </div>
-            <div class="row">
-              <label for="datetime-pickup" class="form-label">
-                <span
-                  >Caso tenhas optado por levantar em loja, quando virás
-                  levantar? Caso pretendas receber em casa, até quando
-                  necessitas de receber a encomenda?</span
-                ></label
-              >
-            </div>
-            <div class="row">
-              <input
-                type="datetime-local"
-                name="datetime-pickup"
-                id="datetime-pickup"
-                class="form-control"
-                min="2021-10-01"
-                max="2021-12-31"
-              />
-            </div>
-          </div>
-          <div class="row">
+
+          <div class="row order-note-row">
+            <span class="order-sub-subheading">Importante! </span
+            ><span
+              >Após submeteres a tua encomenda e esta ser analisada, receberás um
+              e-mail de confirmação, com o valor total da encomenda e o IBAN para
+              onde deverás fazer o pagamento. Apenas será processada a encomenda
+              após feito o respetivo pagamento. </span
+            ><span
+              >Caso tenhas feito um pedido de contratação de serviço, receberás um
+              e-mail com algumas questões ou um contacto direto via
+              telefone.</span
+            >
             <span style="font-weight: bold"
-              >Caso pretendas receber em casa, qual a morada de entrega?</span
+              >Muito obrigada pela tua preferência!</span
             >
           </div>
-          <div class="row">
-            <div class="col-12">
-              <label for="rua" class="form-label"
-                >Rua/Avenida/Lugar, Nº/Andar</label
-              >
-              <input type="text" id="rua" class="form-control" />
-            </div>
-            <div class="col-4">
-              <label for="codigo-postal" class="form-label"
-                >Código Postal</label
-              >
-              <input
-                type="text"
-                id="codigo-postal"
-                class="form-control"
-                placeholder="_ _ _ _ - _ _ _"
-              />
-            </div>
-            <div class="col-8">
-              <label for="cidade" class="form-label">Freguesia, Cidade</label>
-              <input type="text" id="cidade" class="form-control" />
-            </div>
-          </div>
-          <div class="row other-service-row">
-            <div class="col">
-              <label for="outro-servico" class="form-label"
-                ><span style="font-weight: bold"
-                  >Quero contratar um serviço!</span
-                ></label
-              >
-              <textarea
-                name="outro-servico"
-                id="outro-servico"
-                class="form-control"
-                placeholder="Por favor especifique qual o serviço que pretende contratar..."
-              ></textarea>
-            </div>
-          </div>
-          <div class="row comment-row">
-            <div class="col">
-              <label for="comentario" class="form-label"
-                ><span style="font-weight: bold"
-                  >Quero acrescentar um comentário sobre a minha
-                  encomenda.</span
-                ></label
-              >
-              <textarea
-                name="comenterio"
-                id="comentario"
-                class="form-control"
-              ></textarea>
-            </div>
-          </div>
-        </div>
-        <br />
-        <div class="row note-row">
-          <span style="font-weight: bold">Importante! </span
-          ><span
-            >Após submeteres a tua encomenda e esta ser analisada, receberás um
-            e-mail de confirmação, com o valor total da encomenda e o IBAN para
-            onde deverás fazer o pagamento. Apenas será processada a encomenda
-            após feito o respetivo pagamento. </span
-          ><span
-            >Caso tenhas feito um pedido de contratação de serviço, receberás um
-            e-mail com algumas questões ou um contacto direto via
-            telefone.</span
-          >
-          <span style="font-weight: bold"
-            >Muito obrigada pela tua preferência!</span
-          >
-        </div>
-        <input type="submit" id="order-submit-btn" value="Encomendar" />
-      </form>
+          <input type="submit" id="order-submit-btn" value="Encomendar" />
+        </form> 
+      </div>
+      <!-- END OF THE FORM -->
+
       <hr />
       <br />
       <div id="contact">
