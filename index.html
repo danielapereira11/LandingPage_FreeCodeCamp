@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Até te Babas</title>
+    <script src="https://kit.fontawesome.com/3034dccdbc.js" crossorigin="anonymous"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -230,7 +231,7 @@
         <h2>Quero Encomendar!</h2>
       </div>
       <!-- START OF THE FORM -->
-      <div >
+      <div>
         <form id="order-form">
           <div class="row order-contact-row">
             <div class="row sub-row">
@@ -546,7 +547,7 @@
               >Muito obrigada pela tua preferência!</span
             >
           </div>
-          <input type="submit" id="order-submit-btn" value="Encomendar" />
+          <input type="submit" id="order-submit-btn" class="btn" value="Encomendar" />
         </form> 
       </div>
       <!-- END OF THE FORM -->
@@ -556,98 +557,84 @@
       <div id="contact">
         <h2>Contactos</h2>
       </div>
-      <div class="sub-heading">
-        Contacte-nos diretamente ou envie-nos uma mensagem pelo formulário, que entraremos em contacto o mais brevemente possível!
-      </div>
-      
+      <div class="contactos-container">
         <div class="row contactos-row">
-          <div class="col-5">
-            <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="row sub-row">
+              <div class="row sub-row align-items-center">
+                <div class="col info-heading">MORADA</div>
+              </div>
+              <div class="row sub-row info-row align-items-center">
+              <div class="col-3">
+                <p><i class="fas fa-home"></i></p>
+              </div>
               <div class="col">
-                MORADA <br>
-                <adress>R. Adolfo Casais Monteiro, 4760-113, Vila Nova de Famalicão</adress>
-              </div>          
+                <adress>R. Adolfo Casais Monteiro, <br>4760-113, <br>Vila Nova de Famalicão</adress>
+              </div>  
             </div>
-            <div class="row">
+            </div>
+            <div class="row sub-row">
+              <div class="row sub-row">
+                <div class="col info-heading">CONTACTOS TELEFÓNICOS</div>
+              </div>
+              <div class="row sub-row info-row align-items-center">
+               <div class="col-3">
+                <p><i class="fas fa-mobile-alt"></i></p>
+              </div>
               <div class="col">
-                CONTACTOS TELEFÓNICOS <br>
                 +351 912 133 335 <br>
                 +351 918 921 865
               </div>  
+              </div>
             </div>
-            <div class="row">
+            <div class="row sub-row">
+              <div class="row sub-row">
+                <div class="col info-heading">E-MAIL</div>
+              </div>
+               <div class="row sub-row info-row align-items-center">
+               <div class="col-3">
+                <p><i class="fas fa-at"></i></p>
+              </div>
               <div class="col">
-                E-MAIL <br>
                 atetebabas.geral@gmail.com
               </div>  
+              </div>
             </div>
-            <div class="row">
+            <div class="row sub-row">
+              <div class="row sub-row">
+                <div class="col info-heading"><i class="fas fa-clock"></i>&nbsp&nbsp&nbsp<span>HORÁRIO<span></div>
+              </div>
+              <div class="row sub-row info-row align-items-center">
               <div class="col">
-                HORÁRIO <br>
-                <div class="row">
-                  <div class="col">
-                    Segunda-Feira
+                <div class="row horario-row">
+                  <div class="col-7">
+                    Segunda a Sexta-Feira
                   </div>
                   <div class="col">
                     09:00 - 19:00
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col">
-                    Terça-Feira
-                  </div>
-                  <div class="col">
-                    09:00 - 19:00
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    Quarta-Feira
-                  </div>
-                  <div class="col">
-                    09:00 - 19:00
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    Quinta-Feira
-                  </div>
-                  <div class="col">
-                    09:00 - 19:00
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    Sexta-Feira
-                  </div>
-                  <div class="col">
-                    09:00 - 19:00
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    Sábado
+                  <div class="col-7">
+                    Sábado & Domingo
                   </div>
                   <div class="col">
                     09:00 - 14:00
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col">
-                    Domingo
-                  </div>
-                  <div class="col">
-                    09:00 - 14:00
-                  </div>
-                </div>
-              </div>  
+              </div> 
+              </div> 
             </div>
           </div>
-          <div class="col-7">
+          <div class="col-12 col-md-6">
+            <div class=" row sub-row">
+              <div class="col-12 contact-us-heading"> Contacte-nos diretamente ou envie-nos uma mensagem pelo formulário, que entraremos em contacto o mais brevemente possível!
+              </div>
+            </div>
             <form id="contact-form">
                 <div class="row sub-row">
-                  <div class="col-12">
-                    <label for="contacto-nome" class="form-label">Nome:</label
+                  <div class="col-12 contact-us-cols">
+                    <label for="contacto-nome" class="form-label hide-element">Nome:</label
                     ><br />
                     <input
                       type="text"
@@ -660,8 +647,8 @@
                   </div>
                 </div>
                 <div class="row sub-row">
-                  <div class="col-12">
-                    <label for="contacto-email" class="form-label">E-mail:</label><br />
+                  <div class="col-12 contact-us-cols">
+                    <label for="contacto-email" class="form-label hide-element">E-mail:</label><br />
                     <input
                       type="email"
                       class="form-control"
@@ -674,8 +661,8 @@
                   </div>
                 </div>
                 <div class="row sub-row">
-                  <div class="col-12">
-                  <label for="contacto-mensagem" class="form-label">Mensagem</label>
+                  <div class="col-12 contact-us-cols">
+                  <label for="contacto-mensagem" class="form-label hide-element">Mensagem</label><br>
                   <textarea
                     name="contacto-mensagem"
                     id="contacto-mensagem"
@@ -684,10 +671,15 @@
                   ></textarea>
                   </div>
                 </div>
-                <input type="submit" id="contact-submit-btn" value="Enviar" />
+                <div class="row sub-row">
+                  <div class="col-12 contact-us-footer">
+                    <input type="submit" id="contact-submit-btn" class="btn" value="Enviar" />
+                  </div>
+                </div>
             </form>
           </div>
         </div>
+      </div>
       <hr />
       <div id="faq">
         <h2>FAQs</h2>
@@ -743,6 +735,7 @@
           </div>
         </div>
       </div>
+      </div>
       <hr />
     </main>
     <form id="form" action="https://www.freecodecamp.com/email-submit">
@@ -760,7 +753,7 @@
         placeholder="Insira o seu e-mail"
         autocomplete="off"
       />
-      <input type="submit" value="Submeter" id="submit" class="submit-btn" />
+      <input type="submit" value="Submeter" id="submit" class=" btn submit-btn" />
     </form>
     <footer>
       <div class="row g-0">

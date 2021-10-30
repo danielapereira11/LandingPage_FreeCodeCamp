@@ -44,7 +44,6 @@ header {
 }
 #nav-bar {
   background-color: #b9e5aa5d;
-  margin: 0;
   min-height: 40px;
   width: 100%;
   overflow: auto;
@@ -227,16 +226,68 @@ p.when {
 .padding-top-20 {
   padding-top: 20px;
 }
-#order-submit-btn {
-  display: block;
-  margin: 30px auto;
-  padding: 12px 100px;
-  font-size: 22px;
-  color: #b9e5aa;
-  background-color: #438c8e;
-  border: 2px solid #438c8e;
-  border-radius: 5px;
-  box-shadow: 4px 4px 7px #438c8e75;
+
+.contactos-container {
+  padding: 0;
+}
+.contact-us-cols {
+  border-left: 3px solid #438c8e5e;
+  border-right: 3px solid #438c8e5e;
+}
+.contact-us-heading {
+  background-color: #438c8e5e;
+  padding: 20px 10px;
+  margin: 15px 0 0 0;
+  text-align: center;
+  font-size: 85%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.info-heading {
+  background-color: #438c8e5e;
+  padding: 5px;
+  margin: 15px 0 0 0;
+  text-align: center;
+  font-size: 85%;
+  font-weight: bold;
+  border-radius: 0 5px;
+}
+.contact-us-footer {
+  background-color: #438c8e5e;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 0;
+  padding: 10px 0;
+}
+.hide-element {
+  border: 0;
+  clip-path: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+#contacto-mensagem {
+  height: 140px;
+  margin-bottom: 20px;
+}
+.info-row {
+  padding: 10px 0;
+}
+.horario-row {
+  border-bottom: 0.5px solid grey;
+  padding-bottom: 4px;
+}
+.fas {
+  font-size: 45px;
+  color: rgba(0, 0, 0, 0.726);
+  text-align: center;
+}
+.fa-clock {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.726);
 }
 
 .faq-accordion-header {
@@ -258,7 +309,7 @@ p.when {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  padding: 10px;
+  padding: 10px 10px 5px 10px;
   text-align: center;
   background-color: #b9e5aa5d;
   border-top: 2px solid #438c8e5e;
@@ -276,13 +327,30 @@ p.when {
   border-radius: 5px;
   border: 1px solid #438c8e;
 }
+.btn {
+  color: #b9e5aa;
+  background-color: #438c8e;
+  border: 1px solid #438c8e;
+  border-radius: 5px;
+}
 .submit-btn {
   height: 35px;
   width: 120px;
-  color: #b9e5aa;
-  background-color: #438c8e;
-  border-radius: 5px;
-  border: 2px solid #438c8e;
+  margin-bottom: 5px;
+  padding: 3px 12px 6px 12px;
+}
+#order-submit-btn {
+  display: block;
+  margin: 30px auto;
+  padding: 12px 100px;
+  font-size: 22px;
+  box-shadow: 4px 4px 7px #438c8e75;
+}
+#contact-submit-btn {
+  display: block;
+  margin: 10px auto;
+  width: 70%;
+  font-size: 18px;
 }
 .typed-out {
   overflow: hidden;
