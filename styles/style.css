@@ -383,12 +383,29 @@ footer {
   text-align: right;
   margin: 10px;
 }
-.social-media {
-  font-size: smaller;
-  text-align: left;
-  font-weight: bold;
-  margin: 10px;
+p.coded-by a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.726);
 }
+a i.fa-instagram,
+a i.fa-facebook-square {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.726);
+  text-align: left;
+  text-decoration: none;
+}
+a i.fa-instagram {
+  margin: 10px 5px 10px 20px;
+}
+a i.fa-facebook-square {
+  margin: 10px 5px;
+}
+a i.fa-instagram:hover,
+a i.fa-facebook-square:hover,
+p.coded-by a:hover {
+  color: #bad5d5;
+}
+
 .no-display {
   display: none;
 }
