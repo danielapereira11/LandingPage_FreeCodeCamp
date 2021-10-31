@@ -30,17 +30,18 @@ header {
   padding: 5px;
 }
 .header-quote {
-  font-size: 20px;
+  font-size: 21px;
   color: #b9e5aa;
   text-align: left;
+  text-transform: uppercase;
 }
 .header-phone {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   color: #b9e5aa;
   text-align: right;
   padding-right: 5px;
-  margin-bottom: 8px;
+  margin-bottom: 3px;
 }
 #nav-bar {
   background-color: #b9e5aa5d;
@@ -435,6 +436,10 @@ footer {
   }
   .header-quote {
     font-size: 15px;
+  }
+  .header-phone {
+    font-size: 11px;
+    font-weight: normal;
   }
   .nav-link {
     font-size: 15px;
