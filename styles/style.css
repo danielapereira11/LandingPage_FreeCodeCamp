@@ -43,6 +43,13 @@ header {
   padding-right: 5px;
   margin-bottom: 3px;
 }
+.header-phone a {
+  text-decoration: none;
+  color: #b9e5aa;
+}
+.header-phone a:hover {
+  text-decoration: underline;
+}
 #nav-bar {
   background-color: #b9e5aa5d;
   min-height: 40px;
@@ -222,6 +229,14 @@ p.when {
   padding-top: 20px;
 }
 
+.contact-links {
+  text-decoration: none;
+  color: black;
+}
+.contact-links:hover {
+  text-decoration: underline;
+  color: #438c8e;
+}
 .contactos-container {
   padding: 0;
 }
