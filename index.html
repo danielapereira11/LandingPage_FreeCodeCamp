@@ -73,7 +73,6 @@
       <div id="gallery">
         <h2>Galeria</h2>
       </div>
-      <!-- USE A CAROUSEL OF PHOTOS (add the option that has the arrows and indication below of how many photos in the carousel - when adding JavaScript only) -->
       <div class="gallery-carousel-container">
         <div class="gallery-wrap">
           <div class="gallery-item gallery-picture-1"></div>
@@ -241,7 +240,7 @@
               </div>
             </div>
             <div class="row sub-row">
-              <div class="col-6">
+              <div class="col-12 col-sm-6">
                 <label for="first-name" class="form-label">Primeiro Nome:</label
                 ><br />
                 <input
@@ -265,7 +264,7 @@
               </div>
             </div>
             <div class="row sub-row">
-              <div class="col-4">
+              <div class="col-12 col-sm-4">
                 <label for="phone" class="form-label">Telefone:</label><br />
                 <input
                   type="tel"
@@ -447,29 +446,25 @@
                 </div>
               </div>
               <div class="row sub-row">
-                <div class="col-6">
-                  <p class="when">
-                    Caso tenhas optado por levantar em loja, quando virás
-                    levantar?
-                  </p>
-                </div>
-                <div class="col-6">
-                  <p class="when">
-                    Caso pretendas receber em casa, até quando necessitas de
-                    receber a encomenda?
-                  </p>
-                </div>
+                <div class="col"><p class="when">Quer tenhas optado por levantar em loja, ou receber em casa, precisamos de saber quando precisas de receber as Bolas de Berlim:</p></div>
               </div>
               <div class="row sub-row">
-                <input
-                  type="datetime-local"
-                  name="datetime-pickup"
-                  id="datetime-pickup"
+                <div class="col-12 col-sm-6"> <input
+                  type="date"
+                  name="date-pickup"
+                  id="date-pickup"
                   class="form-control"
-                  min="2021-10-01"
-                  max="2021-12-31"
+                  placeholder="dd-mm-yyyy"
+                /></div>
+               <div class="col-12 col-sm-6">
+                 <input
+                  type="time"
+                  name="time-pickup"
+                  id="time-pickup"
+                  class="form-control"
                 />
               </div>
+            </div>
             </div>
             
             <div class="row sub-row padding-top-20">
@@ -484,7 +479,7 @@
                 >
                 <input type="text" id="rua" class="form-control" />
               </div>
-              <div class="col-3">
+              <div class="col-12 col-sm-4 col-md-3">
                 <label for="codigo-postal" class="form-label"
                   >Código Postal</label
                 >
@@ -554,7 +549,6 @@
       <!-- END OF THE FORM -->
 
       <hr />
-      <br />
       <div id="contact">
         <h2>Contactos</h2>
       </div>

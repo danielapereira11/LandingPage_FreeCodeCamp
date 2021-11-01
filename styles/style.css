@@ -159,13 +159,6 @@ h2 {
   font-size: 14.5px;
   line-height: 21px;
 }
-/* .order-contact-row,
-.table-col,
-.delivery-row,
-.recieve-row {
-  border-bottom: 2px solid #7eb0b1;
-  border-radius: 15px;
-} */
 .sub-row {
   padding: 0;
   margin: 0;
@@ -185,8 +178,9 @@ table.table {
 .radio {
   padding-left: 0;
 }
-#datetime-pickup {
-  width: 50%;
+#date-pickup,
+#time-pickup {
+  width: 100%;
   margin: 0 auto;
 }
 .delivery-row {
@@ -197,7 +191,7 @@ table.table {
 }
 
 p.when {
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   line-height: 20px;
   padding-bottom: 5px;
@@ -213,14 +207,14 @@ p.when {
 .order-subheading {
   display: block;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 21px;
   text-align: center;
   padding-bottom: 10px;
 }
 .order-sub-subheading {
   display: block;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 17px;
   text-align: center;
   padding: 5px;
 }
