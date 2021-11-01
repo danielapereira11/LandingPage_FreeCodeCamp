@@ -72,11 +72,8 @@ header {
   margin: 0;
   padding: auto;
 }
-
-div a.nav-link:hover {
-  background-color: #438c8e;
-}
 .nav-link:hover {
+  background-color: #438c8e;
   color: #b9e5aa;
 }
 main {
