@@ -7,13 +7,14 @@
 body {
   font-family: "Alegreya Sans", sans-serif;
   font-size: 17px;
+  background-color: rgba(252, 250, 243, 0.822);
 }
 .container {
   max-width: 100%;
   padding: 0;
 }
 header {
-  position: fixed;
+  position: sticky;
   top: 0;
   margin: 0;
   width: 100%;
@@ -41,9 +42,6 @@ header {
   text-transform: uppercase;
 }
 .header-phone {
-  font-size: 14px;
-  font-weight: bold;
-  color: #b9e5aa;
   text-align: right;
   padding-right: 5px;
   margin-bottom: 3px;
@@ -51,6 +49,7 @@ header {
 .header-phone a {
   text-decoration: none;
   color: #b9e5aa;
+  font-size: 14px;
 }
 .header-phone a:hover {
   text-decoration: underline;
@@ -78,7 +77,7 @@ header {
 }
 main {
   width: 80%;
-  margin: 180px auto 20px;
+  margin: 20px auto;
 }
 h2 {
   padding: 8px 0;
@@ -94,7 +93,7 @@ h2 {
 h3 {
   margin-bottom: 0;
 }
-.iframe-container {
+/* .iframe-container {
   position: relative;
   width: 100%;
   padding-bottom: 45%;
@@ -106,7 +105,7 @@ h3 {
   left: 15%;
   width: 70%;
   height: 80%;
-}
+} */
 
 .gallery-carousel-container {
   padding: 10px 0;
@@ -515,6 +514,9 @@ p.coded-by a:hover {
 @media (min-width: 991.98px) {
   .service-container {
     max-width: 70%;
+  }
+  #order-form {
+    max-width: 80%;
   }
 }
 @media (min-width: 1199.98px) {
